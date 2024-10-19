@@ -17,7 +17,7 @@
 
 1. ابتدا مخزن پروژه را کلون کنید:
    ```bash
-   git clone https://github.com/yourusername/car_plate_recognition.git
+   git clone https://github.com/saeidsaadatigero/car_plate_recognition.git
    cd car_plate_recognition
    ```
 
