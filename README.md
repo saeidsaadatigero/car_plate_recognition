@@ -1,4 +1,3 @@
-# :star::star::star::star::star: 
 # سیستم تشخیص پلاک خودرو![Screenshot from 2024-10-19 17-41-46](https://github.com/user-attachments/assets/a2117319-10dd-452a-9c67-82276d164984)
 
 
