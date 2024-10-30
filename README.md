@@ -16,27 +16,27 @@ To set up and run this project, follow the steps below:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/car_plate_recognition.git
+   git clone https://github.com/saeidsaadatigero/car_plate_recognition.git
    cd car_plate_recognition
 
 2. Create and activate a Python virtual environment:
-
-python3 -m venv .venv
-source .venv/bin/activate
+  ```bash
+  python3 -m venv .venv
+  source .venv/bin/activate
 
 
 3. Install the required dependencies:
-
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
 
 
 4. Start the Django server:
-
+  ```bash
 python manage.py runserver
 
 
 5. Access the web application at:
-
+  ```bash
 http://127.0.0.1:8000
 
 
@@ -61,7 +61,7 @@ Visit the official YOLO website.
 
 Download the yolov3.weights and yolov3.cfg files.
 
-
+  ```bash
 git clone https://github.com/pjreddie/darknet
 cd darknet
 make
