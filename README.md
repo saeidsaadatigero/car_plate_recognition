@@ -50,26 +50,15 @@ To run this project, follow these steps:
 3. The recognized license plate numbers will be displayed, and the plate images will be saved.
 
 
-# مراحل دانلود و تنظیم YOLO
+# YOLO Download and Setup Instructions
 
-1. **دانلود YOLO**:
-   - به [سایت رسمی YOLO](https://pjreddie.com/darknet/yolo/) بروید.
-   - فایل‌های `yolov3.weights` و `yolov3.cfg` را دانلود کنید.
-### سه دستورات زیر را در ترمینال ران کنید
-   - git clone https://github.com/pjreddie/darknet
-cd darknet
-make
-   - wget https://pjreddie.com/media/files/yolov3.weights
-### از این سایت yolo3.cfg را دانلود کنید 
-   - https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg
+1. **Download YOLO**:
+   - Visit the [official YOLO website](https://pjreddie.com/darknet/yolo/).
+   - Download the `yolov3.weights` and `yolov3.cfg` files.
 
-2. **اضافه کردن به دایرکتوری پروژه(پوشه settings.py)**:
-   - فایل‌های دانلود شده را در دایرکتوری اصلی پروژه `car_plate_recognition` قرار دهید.
-   - mv yolov3.cfg yolov3.weights ../
-
-
-3. **تنظیمات OpenCV**:
-   - مطمئن شوید که OpenCV به درستی نصب شده است و می‌تواند مدل‌های YOLO را بارگذاری کند.
-
-4. **آزمایش**:
-   - پس از تنظیم YOLO، سرور Django را اجرا کنید و از آدرس IP دوربین برای تست استفاده کنید.
+   ### Run the following commands in the terminal:
+   ```bash
+   git clone https://github.com/pjreddie/darknet
+   cd darknet
+   make
+   wget https://pjreddie.com/media/files/yolov3.weights
