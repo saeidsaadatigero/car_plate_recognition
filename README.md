@@ -19,7 +19,7 @@ To run this project, follow these steps:
 
 1. Clone the project repository:
    ```bash
-   git clone https://github.com/yourusername/car_plate_recognition.git
+   git clone https://github.com/saeidsaadatigero/car_plate_recognition.git
    cd car_plate_recognition
    ```
 
